@@ -41,7 +41,13 @@ header{
     text-decoration: none;
     font-size: 1.15rem;
     color: #ffff;
-    /* font-weight: 400; */
+    font-weight: 400;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-link:hover{
+    border-bottom: 2px solid rgb(187, 8 ,8);
+    font-size: 1.16rem;
 }
 
 
