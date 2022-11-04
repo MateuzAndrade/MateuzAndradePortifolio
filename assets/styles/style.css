@@ -55,3 +55,38 @@ header{
     display: flex;
     align-items: center;
 }
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 824px){
+    .navbar{
+        padding: 1.5rem 4rem;
+    }
+    .menuList{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .logo h1{
+        padding-left: 10px;
+    }
+}
